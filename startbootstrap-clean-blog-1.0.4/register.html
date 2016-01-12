@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href= "registerstyle.css" rel="stylesheet" media="screen">
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="registercode.js"></script>
+	</head>
+	<body>
+		<h1>Register Now!</h1>
+
+		<div id="register">
+		<h1>Register</h1>
+			<div id="detail">
+			<p1>Please Enter Your Details Here</p1>
+			</div>
+			<form method="get" action="" onsubmit="return store(this);">
+			<label for="email">User Name</label>
+			<input type="text" id="username" placeholder="Select A User Name" required value="" /><br />
+			<label for="pass">Password</label>
+			<input type="password" id="password" placeholder="Select A Password" required value="" /><br />
+			Confirm Password <input type="password" placeholder="Confirm Password" required value=""/> <br>
+			School <input type="text" placeholder="Enter Your School" required value=""/> <br>
+			Grade <input type="text" placeholder="Enter Grade" required value=""/> <br>
+
+			<a href="index.html" class="button"><input class="button"type="button" value="Register" /></a>
+			</form>
+		</div>
+
+	</body>
+</html>
