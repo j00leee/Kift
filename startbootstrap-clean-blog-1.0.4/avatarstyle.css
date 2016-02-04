@@ -1,0 +1,65 @@
+img{	
+	width: 55%;
+    height: 70%;
+    margin: 0px 0px 7px -35px;
+    display: inline;
+    margin-top: 40px
+}
+.icon2{
+	display: inline-block;
+    font-family: 'Indie Flower';
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: bolder;
+    margin: -665px 6px 0px 0px;
+
+} 
+.icon3{
+
+    display: inline-block;
+    font-family: 'Indie Flower';
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: bolder;
+    margin: -665px 6px 0px 0px;
+
+} 
+.bar .btn.pull-right{
+    height: 3em;
+    width: 6em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon{
+    color: black;
+    font-weight: bold;
+}
+.frame{
+    float: left;
+    position: absolute;
+    z-index: -1;
+    height: 75%;
+    margin-left: 5px;
+}
+.guy{
+    margin-left: 45px;
+}
+.girl{
+    margin-left: 45px;
+}
+.continue {
+    margin-top: 6%;
+    margin-left: 20%;
+    height: 115px;
+    width: 499px;
+    font-size: 65px;
+    line-height: 100%;
+    font-family: 'Indie Flower';
+}
