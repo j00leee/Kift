@@ -36,7 +36,7 @@
 	display: block;
 }
 html {
-	background-color: mediumseagreen;
+	background-color: #ffe6e6;
 	font-family: 'Raleway';
 }
 h1 {
@@ -61,9 +61,6 @@ p3, p4 {
 }
 	
 
-html {
-	background-color: mediumseagreen;
-}
 h1 {
 	font-family: 'Raleway';
 	text-align: center;
