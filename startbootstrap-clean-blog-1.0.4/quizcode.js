@@ -16,9 +16,9 @@
     choices: ["True", "False"],
     correctAnswer: "False"
   }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
+    question: "Who made popsicles?",
+    choices: ["An adult", "An 11 year old", "Machine"],
+    correctAnswer: "An 11 year old"
   }];
   
   var questionCounter = 0; //Tracks question number
