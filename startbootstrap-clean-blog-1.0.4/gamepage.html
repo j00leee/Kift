@@ -43,6 +43,67 @@
 				}
 				#links{align:center;}
 				
+				.demo {
+					border:3px solid #B6F78A;
+					border-collapse:collapse;
+					padding:5px;
+					
+				}
+				.demo th {
+					border:3px solid #B6F78A;
+					padding:5px;
+					background:#F0F0F0;
+					text-align: center;
+					
+				}
+				.demo td {
+					border:3px solid #B6F78A;
+					padding:5px;
+					text-align: center;
+				}
+				
+				.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:3px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Courier New;
+	font-size:18px;
+	font-weight:bold;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+				
 			</style>
 	</head>
 	<body>
@@ -92,13 +153,35 @@
 	
 		 <h1>Games</h1>
 		</br></br></br> 
-	<div id="links">
-		<a class="button" href="genderchoice.html"><input class ="button" type="button" value="Customize Avatar" /></a> <br>
-		<a class="button" href="phaser_tutorial_02 (1)/index.html"><input class="button" type="button" value="banana game"/></a> <br>
-		<img src="img/bananagame.PNG"/><hr>
-		<a class="button" href="PHASER12/index.html"><input class="button" type="button" value="Fruit Collect"/></a></br>
-		<img src="img/timgame.PNG"/>
-	</div>
+		<table class="demo" align="center">
+			<thead>
+			<tr>
+				<td>Games</td>
+				<td>Description</td>
+				<td>Sneak Peak</td>
+			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="genderchoice.html" class="myButton" type="button">Customize Avatar</a></td>
+					<td>Customize your avatar the way you want it to look! Have fun :)</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><a href="phaser_tutorial_02 (1)/index.html" class="myButton" type="button">Banana Drop</a></td>
+					<td>Use the "right" and "left" buttons to make the bucket to move. Collect the bananas. If you collect 6 sodas, you lose, so avoid the sodas!</td>
+					<td><img src="img/bananagame.PNG"/></td>
+				</tr>
+				<tr>
+					<td><a href="PHASER12/index.html" class="myButton" type="button">Fruit Collect</a></td>
+					<td>Collect the fruits, but not the unhealthy food!</td>
+					<td><img src="img/timgame.PNG"/></td>
+					
+					
+					
+				</tr>
+			</tbody>
+		</table>
 	</body>
 	
 </html>
