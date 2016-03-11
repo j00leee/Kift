@@ -1,0 +1,42 @@
+body{
+	background-color: yellow;
+}
+
+#select{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.gender{
+	width: 100%
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+.icon{
+    color: black;
+    font-weight: bold;
+}
+
+#male {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-bottom: 1%;
+    margin-top: -3%;
+}
+
+#female {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+
+
